@@ -1,0 +1,27 @@
+.titulo a {
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.navegacao a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+.header{
+    padding: 20px 0 20px 0;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+@media (max-width: 490px) {
+    .header{
+        flex-direction: column;
+    }
+}

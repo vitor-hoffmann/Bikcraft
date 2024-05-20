@@ -1,0 +1,50 @@
+.herosection {
+    display: flex;
+    background-color: black;
+    height: 70vh;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.elementos h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    color: white;
+}
+.elementos h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #B2B2B2;
+    padding-bottom: 8px;
+}
+.elementos span{
+    color: #FFBB00;
+}
+.elementos button{
+    background: linear-gradient(31deg, rgba(255,191,0,1) 0%, rgba(242,165,12,1) 100%);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #332200;
+    font-size: 1rem;
+    border-radius: 8px;
+    padding: 15px 25px 15px 25px;
+}
+.elementos::after {
+    content: "";
+    display: block;
+    left: 60px;
+    width: 52px;
+    height: 52px;
+    background: url("../../assets/dec/bottom-left.svg") no-repeat center;
+    position: absolute;
+  }
+.imagem{
+    padding-top: 90px;
+    max-height: 80vh;
+    width: auto;
+    display: block;
+    object-fit: contain;
+    border-radius: 8px;
+}
