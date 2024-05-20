@@ -42,8 +42,8 @@
     position: absolute;
   }
 .imagem{
-    padding-top: 80px;
-    max-height: 80vh;
+    padding-top: 90px;
+    max-height: 75vh;
     width: auto;
     display: block;
     object-fit: contain;

@@ -1,5 +1,7 @@
-@import "./header/header.css";
+@import "./home/header.css";
 @import "./global.css";
-@import "./herosection/herosection.css";
-@import "./escolha/escolhaasua.css";
-@import "./diferencial/diferencial.css";
+@import "./home/herosection.css";
+@import "./home/escolhaasua.css";
+@import "./home/diferencial.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
