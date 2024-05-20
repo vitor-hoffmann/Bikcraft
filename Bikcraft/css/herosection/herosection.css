@@ -17,6 +17,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #B2B2B2;
+    font-size: 1.5rem;
     padding-bottom: 8px;
 }
 .elementos span{
@@ -41,10 +42,72 @@
     position: absolute;
   }
 .imagem{
-    padding-top: 90px;
+    padding-top: 80px;
     max-height: 80vh;
     width: auto;
     display: block;
     object-fit: contain;
     border-radius: 8px;
+}
+
+@media (max-width: 1125px){
+    .imagem{
+        max-height: 70vh;
+        padding: 0;
+    }
+    .herosection{
+        gap: 60px;
+    }
+    .elementos h1{
+        font-size: 3rem;
+    }
+    .elementos h2{
+        font-size: 1.3rem;
+    }
+    .elementos button{
+        padding: 10px 20px 10px 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .imagem {
+        display: none;
+    }
+    .elementos h2{
+        margin: 0px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 1215px){
+    .elementos::after{
+        display: none;
+    }
+}
+@media (max-height: 815px) {
+    .elementos::after{
+        bottom: 150px;
+    }
+}
+@media (max-height: 690px) {
+    .elementos h1{
+        font-size: 3rem;
+    }
+    .elementos h2{
+        font-size: 1.3rem;
+    }
+    .elementos button{
+        padding: 10px 20px 10px 20px;
+    }
+}
+@media (max-height: 530px) {
+    .elementos h1{
+        font-size: 2.5rem;
+    }
+    .elementos h2{
+        font-size: 1.1rem;
+    }
+    .elementos button{
+        padding: 5px 15px 5px 15px;
+    }
 }

@@ -1,0 +1,86 @@
+.escolha img{
+    width: 24vw;
+}
+.escolha div{
+    margin: 0;
+    padding: 0;
+}
+.escolha-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 100vh;
+}
+.escolha{
+    margin-top: 100px;
+    margin-bottom: -30px;
+}
+.escolha span{
+    color: #FFBB00;
+}
+.escolha h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 2.8rem;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: absolute;
+    left: 25vw;
+    top: 105vh;
+}
+.nome{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #111111;
+    margin: 0;
+    padding: 0;
+}
+.valor{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+@media (min-width: 1750px) {
+    .escolha h3{
+        top: 100vh;
+    }
+}
+@media (max-width: 1120px) {
+    .escolha h3{
+        top: 90vh;
+    }
+}
+@media (min-width: 2140px) {
+    .escolha h3{
+        top: 95vh;
+    }
+}
+@media (min-width: 2480px) {
+    .escolha h3{
+        top: 92vh;
+    }
+}
+@media (max-width: 1120px) {
+    .escolha-div {
+        display: grid;
+    }
+    .escolha {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .escolha h3 {
+        position: static;
+        margin-bottom: 20px;
+    }
+    .escolha img{
+        width: 60vw;
+    }
+    .nome{
+        font-size: 30px;
+    }
+}
