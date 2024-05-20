@@ -1,0 +1,119 @@
+.seguros {
+    background: #111111 url("../../assets/dec/bottom-left.svg") no-repeat
+      bottom 40px left 20px;
+  }
+  
+  .seguros-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    align-items: center;
+    justify-content: center;
+  }
+  .botao-secundario {
+    color: #CCCCCC;
+    background-color: #2E2E2E;
+  }
+  .botao {
+    color: #332200;
+    background-color: #FFBB00;
+  }
+  .seguros-container h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 2.8rem;
+    padding-left: 10vw;
+  }
+  .seguros-container h2 span{
+    color: #FFBB00;
+  }
+  .seguros-container span{
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+  }
+  
+  #seguros .seguros {
+    padding-top: 0px;
+  }
+  
+  .seguros h2 {
+    grid-column: 1/-1;
+  }
+  
+  .seguros-item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 32px 32px 32px 60px;
+    border-radius: 4px;
+    background-color: #111111;
+  }
+  
+  .seguros-item h3 {
+    margin-bottom: 40px;
+    color: #9C9C9C;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  .seguros-item span {
+    grid-column: 2;
+    display: block;
+    text-align: right;
+  }
+  
+  .seguros-item ul {
+    grid-column: 1/-1;
+    margin-bottom: 32px;
+  }
+  
+  .seguros-item li + li {
+    margin-top: 20px;
+  }
+  
+  .seguros-item li {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+  }
+  .botao-secundario,
+.botao {
+  display: inline-block;
+  padding: 10px 10px; 
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 20px; 
+}
+
+.botao-secundario {
+  color: #CCCCCC;
+  background-color: #2E2E2E;
+}
+
+.botao {
+  color: #332200;
+  background-color: #FFBB00;
+}
+  .seguros-item li::before {
+    content: "";
+    position: absolute;
+    left: -21px;
+    width: 13px;
+    height: 9px;
+    background-image: url("../../assets/icones/lista.svg");
+  }
+  
+  @media (max-width: 800px) {
+    .seguros-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
