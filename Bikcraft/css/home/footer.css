@@ -22,6 +22,11 @@
   
   .footer li {
     margin-bottom: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+  }
+  .footer li:hover {
+    color: #B2B2B2;
   }
   
   .footer-contato li:nth-child(2)::after,

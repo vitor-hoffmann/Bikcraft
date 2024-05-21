@@ -18,19 +18,19 @@
     font-weight: 400;
     color: #B2B2B2;
     font-size: 1.5rem;
-    padding-bottom: 8px;
+    padding-bottom: 30px;
 }
 .elementos span{
     color: #FFBB00;
 }
-.elementos button{
+.elementos a{
     background: linear-gradient(31deg, rgba(255,191,0,1) 0%, rgba(242,165,12,1) 100%);
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     color: #332200;
     font-size: 1rem;
     border-radius: 8px;
-    padding: 15px 25px 15px 25px;
+    padding: 10px 20px 10px 20px;
 }
 .elementos::after {
     content: "";
@@ -64,7 +64,7 @@
     .elementos h2{
         font-size: 1.3rem;
     }
-    .elementos button{
+    .elementos a{
         padding: 10px 20px 10px 20px;
     }
 }
@@ -75,7 +75,7 @@
     }
     .elementos h2{
         margin: 0px;
-        padding: 0;
+        padding-bottom: 30px;
     }
 }
 
@@ -96,7 +96,7 @@
     .elementos h2{
         font-size: 1.3rem;
     }
-    .elementos button{
+    .elementos a{
         padding: 10px 20px 10px 20px;
     }
 }
@@ -107,7 +107,7 @@
     .elementos h2{
         font-size: 1.1rem;
     }
-    .elementos button{
+    .elementos a{
         padding: 5px 15px 5px 15px;
     }
 }
