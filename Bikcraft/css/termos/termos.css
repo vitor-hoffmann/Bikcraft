@@ -1,0 +1,54 @@
+.termos {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .termos h2 {
+    margin-bottom: 20px;
+  }
+  
+  .termos p + h2 {
+    margin-top: 48px;
+  }
+  
+  .termos p {
+    max-width: 75ch;
+    margin-bottom: 24px;
+  }
+  .termos-1 h2 {
+    color: #111111;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  .termos-1 p {
+    color: #2E2E2E;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .termos-1 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 600px;
+    margin-right: 600px;
+  }
+  .titulo-cont{
+    display: grid;
+    justify-content: center;
+  }
+  .titulo-cont h1{
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  }
+  .titulo-cont p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+  

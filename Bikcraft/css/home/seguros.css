@@ -4,11 +4,11 @@
   }
   
   .seguros-container{
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 60px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    gap: 0px;
     margin-left: 20vw;
     margin-right: 20vw;
     align-items: center;
@@ -18,24 +18,25 @@
     color: #CCCCCC;
     background-color: #2E2E2E;
   }
-  .botao {
-    color: #332200;
-    background-color: #FFBB00;
-  }
-  .seguros-container h2{
+  .pseguro{
     font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    color: #FFFFFF;
-    font-size: 2.8rem;
-    padding-left: 10vw;
-  }
-  .seguros-container h2 span{
-    color: #FFBB00;
-  }
-  .seguros-container span{
-    color: #FFFFFF;
-    font-family: "Poppins", sans-serif;
+    color: #B2B2B2;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
     font-size: 1.3rem;
+  }
+  .h2seguro{
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    font-size: 2.7rem;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    padding-bottom: 30px;
+  }
+  .h2seguro span{
+    color: #FFBB00;
   }
   
   #seguros .seguros {
@@ -45,13 +46,16 @@
   .seguros h2 {
     grid-column: 1/-1;
   }
-  
   .seguros-item {
     display: grid;
     grid-template-columns: 1fr auto;
     padding: 32px 32px 32px 60px;
     border-radius: 4px;
-    background-color: #111111;
+    background-color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    margin: 40px;
   }
   
   .seguros-item h3 {
@@ -92,16 +96,6 @@
   border-radius: 4px;
   margin-top: 20px; 
 }
-
-.botao-secundario {
-  color: #CCCCCC;
-  background-color: #2E2E2E;
-}
-
-.botao {
-  color: #332200;
-  background-color: #FFBB00;
-}
   .seguros-item li::before {
     content: "";
     position: absolute;
@@ -110,10 +104,183 @@
     height: 9px;
     background-image: url("../../assets/icones/lista.svg");
   }
+  .vantagens-bg {
+    background: url("../../assets/dec/bottom-left.svg") no-repeat bottom 40px left
+        20px,
+      url("../../assets/dec/bottom-right.svg") no-repeat bottom 40px right 20px,
+      #000000;
+  }
   
+  .vantagens {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  
+  .vantagens h2 {
+    margin-bottom: 60px;
+  }
+  .vantagens-bg h2{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin-left: 18vw;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 100px;
+    font-size: 3.2rem;
+  }
+  .vantagens-bg span{
+    color: #FFBB00;
+  } 
+  .vantagens-bg h3{
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }  
+  .vantagens-bg p{
+    color: #9C9C9C;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+  }  
+  .vantagens ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 350px;
+    margin-right: 350px;
+    gap: 100px;
+  }
+  
+  .vantagens h3,
+  .vantagens img {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+
+  }
+
+  .perguntas {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #FFFFFF;
+  }
+  .perguntas dl{
+    display: flex;
+    flex-direction: column;
+    margin-left: 23vw;
+    margin-right: 23vw;
+  }
+  
+  .perguntas h2 {
+    margin-bottom: 60px;
+    margin-left: 24vw;
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #111111;
+  }
+  .perguntas span {
+    color: #FFBB00;
+  }
+  
+  .perguntas dl > div {
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .perguntas dl > div:nth-child(odd) {
+    background: #F7F7F7;
+  }
+  
+  .perguntas dt {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #111111;
+    font-size: 1.3rem;
+  }
+  
+  .perguntas dt::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    background: #FFBB00;
+  }
+  
+  .perguntas dt::after {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 6px;
+    background: url("../../assets/icones/seta-abrir.svg") no-repeat right;
+    transition: 0.3s;
+    transform: rotate(180deg);
+  }
+  
+  .perguntas .ativa dt::after {
+    transform: rotate(0deg);
+  }
+  
+  .perguntas dd {
+    padding-left: 20px;
+    padding-top: 16px;
+    max-width: 80ch;
+    color: #404040;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    display: none;
+  }
+  
+  .perguntas .ativa dd {
+    display: block;
+  }
+
   @media (max-width: 800px) {
+    .perguntas {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    .perguntas h2 {
+      margin-bottom: 40px;
+    }
+    .vantagens {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    .vantagens h2 {
+      margin-bottom: 40px;
+    }
+    .vantagens ul {
+      gap: 20px;
+    }
     .seguros-container {
       grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 940px) {
+    .vantagens ul{
+      grid-template-columns: 1fr 1fr;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  }
+  @media (max-width: 380px) {
+    .vantagens-bg h2{
+      font-size: 2rem;
+    }
+    .vantagens-bg p{
+      font-size: .8rem;
+    } 
+  }
+  @media (max-width: 370px) {
+    .vantagens ul{
+      margin-left: 20px;
+      margin-right: 20px;
     }
   }
   

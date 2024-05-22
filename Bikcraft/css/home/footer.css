@@ -25,8 +25,19 @@
     font-family: "Poppins", sans-serif;
     font-weight: 100;
   }
-  .footer li:hover {
+  .footer-informacoes a:hover {
     color: #B2B2B2;
+    transition: .3s;
+  }
+  .footer-informacoes a {
+    transition: .3s;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  .footer-contato li {
+    transition: .3s;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
   }
   
   .footer-contato li:nth-child(2)::after,
